@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "tsc: build - tsconfig.json",
+			"type": "shell",
+			"command": "f:\\nodejs\\tsc.cmd",
+			"args": [ "-p", "tsconfig.json" ],
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
