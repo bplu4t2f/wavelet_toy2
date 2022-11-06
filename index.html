@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TEST TEST TEST</title>
+<style type="text/css">
+body {
+    background-color: #171717;
+    color: #ccc;
+}
+canvas {
+    border: 1px solid #aaa;
+}
+img {
+    border: 1px solid #aaa;
+}
+.flow-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+</style>
+<script type="module" src="wavelet_toy2.js"></script>
+</head>
+
+<body>
+<input id="file" type="file"/>
+<p>Resized preview:<br/>
+<img id="natural-preview"/>
+<canvas id="resized-preview"></canvas>
+</p>
+<div id="results"></div>
+</body>
+</html>
